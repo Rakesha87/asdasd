@@ -82,6 +82,7 @@ public class OtherLeap extends Listener implements Serializable {
 		// System.out.println(yawAngle + "\n");
 		byte[] udpPacketData = serialize(dataFrame);
 		udpCommuniction.send(udpPacketData);
+		System.out.println("asdasd");
 	}
 
 	public byte[] serialize(DataFrame dataFrame) {
